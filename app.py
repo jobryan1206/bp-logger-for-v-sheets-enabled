@@ -1,4 +1,5 @@
 import streamlit as st
+st.write("DEBUG — keys in secrets:", list(st.secrets.keys()))
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
